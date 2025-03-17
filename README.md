@@ -10,7 +10,7 @@
 `git clone https://github.com/onoregleb/tg_bot.git`
 2. Перейти в папку проекта. 
 `cd tg_bot`
-3. становить зависимости. 
+3. Установить зависимости. 
 `pip install -r requirements.txt`
 4. После установки можно запускать бота. Для этого нужно запустить main.py.
 `python main.py`
