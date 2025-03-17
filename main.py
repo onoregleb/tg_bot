@@ -80,7 +80,7 @@ async def replace_bg_decision(message: Message, state: FSMContext):
     else:
         await message.answer("Окей, оставляем фон прозрачным!")
 
-    await state.clear()  # Завершаем состояние
+    await state.clear()
 
 
 async def main():
