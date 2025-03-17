@@ -20,7 +20,7 @@ def remove_background(image: bytes):
 def replace_background(photo_bytes: bytes):
     """
     Заменяет фон на загруженном изображении (с использованием шаблона из backgrounds/)
-    
+
     :param photo_bytes: Изображение, на котором нужно заменить фон
     :type photo_bytes: bytes
     :return: Изображение с замененным фоном
