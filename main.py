@@ -40,7 +40,7 @@ async def handle_photo(message: Message, state: FSMContext):
         photo = message.photo[-1]
         photo_bytes = await bot.download(photo)
 
-        # Удаляем фон
+        # Удаляение фон
         output_image = remove_background(photo_bytes)
         img_buffer = io.BytesIO()
         output_image.save(img_buffer, format="PNG")
